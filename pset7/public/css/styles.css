@@ -1,0 +1,81 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.sell_form {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sell_form_left {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#cash
+{
+    margin-bottom: 20px;
+}
+
+.remove-styles {
+    border: 0;
+    box-shadow: none;
+    cursor: auto !important;
+    color: black !important;
+    background-color: white !important;
+    font-weight: bold;
+}
+
+#sell_div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+
